@@ -73,7 +73,7 @@ setup(
         ],
     },
     install_requires = [
-        'IPython>=0.13,6.0',
+        'IPython>=0.13,<6.0',
     ],
     cmdclass = cmdclass,
 )
